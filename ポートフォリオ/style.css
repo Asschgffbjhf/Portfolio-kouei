@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hannari";
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-color: #333333;
+}
+
+span {
+    color: aquamarine;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    color: aquamarine;
+}
+
+.btn {
+    background-color: aquamarine;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: all 0.7s;
+}
+
+.btn:hover {
+    border-radius: 20px;
+    transform: scale(1.2);
+}
+
+.content {
+    padding-top: 230px;
+
+}
+
+.content .body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    padding-right: 50px;
+    padding-left: 130px;
+
+}
+
+.content .body img {
+    width: 400px;
+    height: 400px;
+    margin-top: -10px;
+}
+
+
+h1 {
+    color: white;
+    margin: 20px 0 20px;
+    font-size: 50px;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.newslatter form {
+    width: 380px;
+    position: relative;
+}
+
+.newslatter form input:first-child {
+    width: 100%;
+    padding: 15px 130px 15px 15px;
+    outline: none;
+    border: 2px solid lightblue;
+    border-radius: 30px;
+}
+
+.newslatter form input:last-child {
+    position: absolute;
+    border: none;
+    top: 5px;
+    right: 6px;
+    padding: 10px;
+    background-color: aquamarine;
+    color:black;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px black;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+
+.about img {
+    width: 430px;
+}
+
+.about-text {
+    width: 600px;
+}
+
+.main {
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about-text p {
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+button {
+    font-size: 20px;
+    background-color: #f39800;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s;
+    padding: 15px 30px;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.works {
+    background-color: black;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.title h2 {
+    color: white;
+    font-size: 70px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.card {
+    margin: 40px;
+    padding: 20px 30px;
+}
+
+.pragraph p {
+    color: white;
+    font-size: 16px;
+}
+
+
+.card img {
+    width: 400px;
+}
+
+
+.skill {
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.cell iframe {
+    width: 200px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.cell {
+    margin: 40px;
+    padding: 20px 30px;
+}
+
+.feature h5 {
+    color: white;
+}
+
+.text01 p {
+    color: white;
+}
+
+.text02 p {
+    color: white
+}
+
+.cell i {
+   color: lightseagreen;
+    font-size: 100px;
+    margin: 25px 0;
+}
+
+.contact {
+    height: 290px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+
+.contact p {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact .contact-button {
+    font-size: 10px;
+    background-color: #f39800;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s;
+    padding: 15px 30px;
+}
+
+.contact .contact-button:hover {
+    background-color: transparent;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
